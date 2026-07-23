@@ -1,8 +1,30 @@
 aid: 51job
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/51job.png
 name: 51job
-description: '51job is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  51job (前程无忧) is one of China's largest online recruitment and human resource
+  services platforms, operated by 51job, Inc. Founded in 1998 and headquartered
+  in Shanghai, the company connects job seekers and employers through its
+  flagship 51job.com website and mobile apps, alongside enterprise hiring
+  services (ehire.51job.com), campus recruitment, HR outsourcing, training, and
+  assessment offerings. Formerly listed on NASDAQ under the ticker JOBS, 51job
+  was taken private in 2022 by an investor consortium that included DCM, Ocean
+  Link, and company management. 51job does not publish a public developer API or
+  open platform; partner and applicant-tracking integrations (for example via
+  SAP SuccessFactors Recruiting Posting) are arranged through its sales and
+  support teams under contract. This profile was surfaced as a portfolio company
+  of dcm-ventures and enriched from 51job's public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/51job/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +38,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Enterprise
+- Recruitment
+- Human Resources
+- Job Search
+- Hiring
+- China
+- Staffing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.51job.com/
+- type: AboutUs
   url: https://we.51job.com/pc/aboutus
+- type: Support
+  url: https://help.51job.com/home.html
+- type: TermsOfService
+  url: https://www.51job.com/bo/service.php
+- type: PrivacyPolicy
+  url: https://www.51job.com/bo/private.php
+- type: DomainSecurity
+  url: security/51job-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
